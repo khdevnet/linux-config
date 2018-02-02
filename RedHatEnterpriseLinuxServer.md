@@ -37,8 +37,15 @@ Running NFS behind firewall if you can't mount NFS folder from nodes.
 * Run systemctl restart nfs-server - if server doesn't start then port can be reserved
 
 * Run rpcinfo -p you should see in console output
- ```
- javascript100003    2   udp   2049  nfs
+ ```javascript
+ 100003    2   udp   2049  nfs
  ...
  ```
+ 
+ Links:
+ * [How NFS Works](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/storage_administration_guide/ch-nfs)
+ * [Running NFS Behind a Firewall](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/storage_administration_guide/nfs-serverconfig)
+ * [Troubleshooting NFS and rpcbind](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/storage_administration_guide/s2-nfs-methodology-portmap#s3-nfs-methodology-portmap-rpcinfo)
+ * [Mounting NFS File Systems using /etc/fstab](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/storage_administration_guide/nfs-clientconfig)
+
  
