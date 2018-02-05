@@ -9,7 +9,7 @@
 
 #### Configure NFS Client
 * Run vim /etc/fstab - Update config add line "server:/remote/export_folder /local/folder nfs options 0 0" 
-* Run mount /remote/export_folder
+* Run mount -t nfs nfs_server_dom:/folder /folder
 
 #### Problems: 
 Running NFS behind firewall if you can't mount NFS folder from nodes.  
