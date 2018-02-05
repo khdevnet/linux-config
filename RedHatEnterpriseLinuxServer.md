@@ -1,12 +1,9 @@
 # Red Hat Enterprise Linux Server 7.3 (Maipo)
 
-cat /etc/*-release - show linux version (Red Hat Enterprise Linux Server 7.3 (Maipo))
-
-df -ah - show hdd space
-
 ### Share NFS folder
 #### Configure NFS Server
-* /usr/sbin/exportfs - command show exported folders
+* Run df -ah - show hdd space
+* Run /usr/sbin/exportfs - command show exported folders
 * Run vim /etc/exports - Update config add line "/folder_name *(rw)" in it and save
 * Run /usr/sbin/exportfs -ra - Export folders
 
