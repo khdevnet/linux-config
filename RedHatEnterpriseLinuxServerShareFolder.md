@@ -4,7 +4,7 @@
 #### Configure NFS Server
 * Run df -ah - show hdd space
 * Run /usr/sbin/exportfs - command show exported folders
-* Run vim /etc/exports - Update config add line "/folder_name *(rw)" in it and save
+* Run vim /etc/exports - Update config add line "/folder_name *(rw)" in it and save [*(rw,sync,no_subtree_check,no_root_squash)"]
 * Run /usr/sbin/exportfs -ra - Export folders
 
 #### Configure NFS Client
