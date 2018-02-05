@@ -6,6 +6,7 @@
 * cat /etc/*-release - show linux version
 
 ### Filesystem commands
+* find / -type f -name "*.ext" - find file by pattern
 * rm -r mydir - remove directory with files
 * mv file_name file_name - move file 
 * cp file_name /folder_name - copy file to folder
