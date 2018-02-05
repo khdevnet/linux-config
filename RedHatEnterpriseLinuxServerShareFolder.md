@@ -8,7 +8,7 @@
 * Run /usr/sbin/exportfs -ra - Export folders
 
 #### Configure NFS Client
-* Run vim /etc/fstab - Update config add line "server:/remote/export_folder /local/folder nfs options 0 0" 
+* Run vim /etc/fstab - Update config add line "server:/remote/export_folder /local/folder nfs defaults 0 0" 
 * Run mount -t nfs nfs_server_dom:/folder /folder
 
 #### Problems: 
