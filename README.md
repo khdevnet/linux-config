@@ -8,4 +8,5 @@
 ### Filesystem commands
 * rm -r mydir - remove directory with files
 * mv file_name file_name - move file 
+* cp file_name /folder_name - copy file to folder
 * df -ah - show hdd space
