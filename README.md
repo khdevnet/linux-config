@@ -12,3 +12,4 @@
 * cp file_name /folder_name - copy file to folder
 * df -ah - show hdd space
 * chmod -R 777 - set all permissions to folder
+* du -sh /folder  - calc folder size
