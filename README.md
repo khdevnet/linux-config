@@ -13,3 +13,4 @@
 * df -ah - show hdd space
 * chmod -R 777 - set all permissions to folder
 * du -sh /folder  - calc folder size
+* tr -d '\r' < badscript   > goodscript - save file wirh \r end of the line instead \r\n
