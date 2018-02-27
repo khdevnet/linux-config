@@ -9,7 +9,7 @@
 * find / -type f -name "*.ext" - find file by pattern
 * rm -r mydir - remove directory with files
 * mv file_name file_name - move file 
-* cp file_name /folder_name - copy file to folder
+* cp file_name /folder_name - copy file to folder [-r] - recursive
 * df -ah - show hdd space
 * chmod -R 777 - set all permissions to folder
 * du -sh /folder  - calc folder size
