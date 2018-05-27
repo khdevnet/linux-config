@@ -15,3 +15,4 @@
 * du -sh /folder  - calc folder size
 * tr -d '\r' < badscript   > goodscript - save file wirh \r end of the line instead \r\n
 * pwd - current directory
+* find /Applications/Unity/ -iname "libjpeg*" ### find by name
